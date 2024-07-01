@@ -6,13 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="vts-service" />
         <module name="auth-service" />
         <module name="notification-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="vacationtrackingsystem" target="1.5" />
       <module name="vts" target="18" />
+      <module name="vts-service" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

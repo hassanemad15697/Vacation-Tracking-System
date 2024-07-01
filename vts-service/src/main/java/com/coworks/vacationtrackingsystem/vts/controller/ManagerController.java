@@ -14,7 +14,6 @@ public class ManagerController {
 
     @Autowired
     private ManagerService managerService;
-    private final MapperUtil mapper;
 
 
 
